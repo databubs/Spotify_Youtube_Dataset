@@ -84,7 +84,13 @@ Load .CSV onto R studio
 data <- read_csv("spotify_youtube.csv")
 ```
 
+# Share
 
+![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Energy_Type_Album.png)
+
+![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Number_Of_Tracks.png)
+
+![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Purple_Relationship_Danceability.png)
 
 
 
