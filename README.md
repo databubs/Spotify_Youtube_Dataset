@@ -1,11 +1,8 @@
 # Introduction
-Hey! My names Bobby In this case study I will mainly focus on visulizations using R studio!
+Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trends and popularity using datasets from Spotify and YouTube.
 
 
-# Spotify and YouTube Dataset
-This dataset contains information about various songs and their corresponding music videos on YouTube. Everything will be visuzalized using R Studio Desktop
-
-# Data
+# Data Source
 The data was obtained from Kaggle [Click to view the dataset](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube)
 The dataset consists of 28 columns and several thousand rows. The columns include the following:
 
@@ -64,12 +61,32 @@ Licensed: whether or not the music video is licensed
 official_video: whether or not the music video is an official music video
 
 Stream: whether or not the song is available for streaming on Spotify
+</details>
 
 
 
 # Process
 Extract csv file to a designated folder onto my desktop
 "C:\Users\USER\Desktop\Spotify_Youtube"
+
+Install packages:
+```r
+install.packages(c("ggplot2", "tidyverse", "readr"))
+```
+Load the packages up:
+```r
+library(ggplot2)
+library(tidyverse)
+library(readr)
+```
+Load .CSV onto R studio
+```r
+data <- read_csv("spotify_youtube.csv")
+```
+
+
+
+
 
 
 
