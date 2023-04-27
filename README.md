@@ -1,6 +1,8 @@
 # Introduction
 Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trends and popularity using datasets from Spotify and YouTube using R Studio.
 
+# Ask
+What are we trying to figure out of this dataset? Well for starters,
 
 # Data Source
 The data was obtained from Kaggle [Click to view the dataset](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube)
@@ -93,6 +95,7 @@ data <- read_csv("spotify_youtube.csv")
 
 ![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Purple_Relationship_Danceability.png)
 
+![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Valence_Color.png)
 
 
 
