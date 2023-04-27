@@ -64,7 +64,7 @@ Stream: whether or not the song is available for streaming on Spotify
 
 
 
-# Process
+# Process/
 Extract csv file to a designated folder onto my desktop
 "C:\Users\USER\Desktop\Spotify_Youtube"
 
@@ -82,7 +82,14 @@ Load .CSV onto R studio
 ```r
 data <- read_csv("spotify_youtube.csv")
 ```
+Clean the data by removing any unnecessary columns or rows. You can do this using the dplyr package. For example, if you want to remove the "ID" column, you can run the following command:
 
+# Clean Log
+
+To remove unnecessary columns such as URL, Description, Stream
+```r
+data <- data %>% select(-ID)
+```
 
 # Share
 
