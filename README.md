@@ -1,5 +1,5 @@
 # Introduction
-Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trends and popularity using datasets from Spotify and YouTube using R Studio.
+Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trend using R Studio within all my datasets.
 
 # Ask
 What are we trying to figure out of this dataset? Well for starters,
