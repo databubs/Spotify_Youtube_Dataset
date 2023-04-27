@@ -70,7 +70,7 @@ Extract csv file to a designated folder onto my desktop
 
 Install packages:
 ```r
-install.packages(c("ggplot2", "tidyverse", "readr"))
+install.packages(c("ggplot2", "tidyverse", "dplyr, "readr"))
 ```
 Load the packages up:
 ```r
@@ -82,7 +82,7 @@ Load .CSV onto R studio
 ```r
 data <- read_csv("spotify_youtube.csv")
 ```
-Clean the data by removing any unnecessary columns or rows. You can do this using the dplyr package. For example, if you want to remove the "ID" column, you can run the following command:
+Clean the data by removing any unnecessary columns or rows using the 'dplyr' package!
 
 # Clean Log
 
@@ -104,7 +104,7 @@ data <- data %>% select(-ID)
 
 
 # Acknowledgements
-The dataset was obtained from Kaggle, and the original source of the data is the Spotify API and the YouTube Data API. The data was collected on August 5th, 2021, and was made available for public use by its author, Matteo Viel.
+The data was collected on August 5th, 2021, and was made available for public use by its author, Matteo Viel.
 
 
 
