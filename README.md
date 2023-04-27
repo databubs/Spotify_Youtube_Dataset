@@ -1,5 +1,5 @@
 # Introduction
-Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trends and popularity using datasets from Spotify and YouTube.
+Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trends and popularity using datasets from Spotify and YouTube using R Studio.
 
 
 # Data Source
@@ -84,6 +84,7 @@ Load .CSV onto R studio
 data <- read_csv("spotify_youtube.csv")
 ```
 
+
 # Share
 
 ![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Energy_Type_Album.png)
@@ -92,6 +93,11 @@ data <- read_csv("spotify_youtube.csv")
 
 ![alt text](https://github.com/databubs/Spotify_Youtube_Dataset/blob/main/Purple_Relationship_Danceability.png)
 
+
+
+
+# Acknowledgements
+The dataset was obtained from Kaggle, and the original source of the data is the Spotify API and the YouTube Data API. The data was collected on August 5th, 2021, and was made available for public use by its author, Matteo Viel.
 
 
 
