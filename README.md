@@ -1,8 +1,5 @@
 # Introduction
-Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trend using R Studio within all my datasets.
-
-# Ask
-What are we trying to figure out of this dataset? Well for starters,
+Hello there! My name is Bobby and in this case study, I will be primarily focusing on visualizing music trend using R Studio with this datasets.
 
 # Data Source
 The data was obtained from Kaggle [Click to view the dataset](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube)
